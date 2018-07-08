@@ -1,0 +1,6 @@
+jobs:
+- name: deployContractHashdata
+  job:
+    deploy:
+      contract: HashData.sol
+      wait: true
